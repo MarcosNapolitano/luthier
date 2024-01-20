@@ -1,5 +1,5 @@
 let actual = false
-export default function colorMode() {
+const colorMode = function () {
   const elem = document.getElementsByTagName('HTML')[0]
   if (!actual) {
     elem.style.colorScheme = 'light'
