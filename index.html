@@ -1,25 +1,206 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gabriel Tagliabue prototype</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="colormode.js"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Midas Piscinas | Rehabilitación y Reparación</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/7eab90d447.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./public/css/styles.css" />
+    <!-- <script src="test.js" async defer></script> -->
   </head>
+
   <body>
-    <header class="header_navbar">
-      <img src="G_d.png" class="image" />
-      <navbar class="navbar">
-        <li class="navbar_button">Quien Soy</li>
-        <li class="navbar_button">Proyectos</li>
-        <li class="navbar_button">Contacto</li>
-      </navbar>
-      <button class="navbar_mobile">-----</button>
+    <header id="navbar">
+      <div id="logo_container">
+        <a href="/">
+          <img
+            src="../public/img/LOGOS MIDAS PISCINAS-s.png"
+            alt="midaspiscinas"
+            id="logo"
+            class="fit"
+          />
+        </a>
+      </div>
+
+      <nav>
+        <ul id="links_container">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#whatsapp">649-320-241</a></li>
+          <li><a href="#vision">Nuestra Visión</a></li>
+          <li><a href="#trabajos">Trabajos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
-    <h1>les gooaaa</h1>
-    <h2>les gooaaa</h2>
-    <h3>les gooaaa</h3>
-    <button onclick="colorMode()">Color Mode</button>
+
+    <section id="home" class="full-height landing-display back">
+      <div>
+        <h1 class="fade title">Midas</h1>
+        <h2 class="fade_slow title">Piscinas</h2>
+      </div>
+      <img
+        src="/public/img/analisis.jpeg"
+        class="fade_extra_slow"
+        alt="midas-piscinas-landing"
+      />
+    </section>
+
+    <section id="eslogan" class="full-height center-text">
+      <h2 class="fade">
+        Hay varias soluciones para cada problema, <br />pero solo una perfecta
+        para cada cliente.
+      </h2>
+    </section>
+
+    <section id="vision" class="full-height">
+      <div class="slider-card-flex-2">
+        <div>
+          <h2>Construcción y Rehabilitación de Piscinas</h2>
+          <p>
+            Somos una empresa con una dilatada trayectoria construyendo,
+            reparando y rehabilitando piscinas de todo tipo, dando soluciones a
+            todos los retos que nuestros clientes nos plantean, adaptándonos a
+            sus necesidades. Un trato cercano y profesional es nuestro fuerte.
+            Somos expertos tematizadores construyendo para usted cascadas,
+            toboganes, jacuzzis y conjuntos temáticos que harán un rincón de
+            ensueño de su piscina jardín.
+          </p>
+          <h3>Cumplimos nuestros plazos de ejecución.</h3>
+        </div>
+        <img src="/public/img/analisis.jpeg" alt="midas-piscinas-vision" />
+      </div>
+    </section>
+
+    <section id="trabajos">
+      <h2>Trabajos Realizados</h2>
+      <div>
+        <div>
+          <img src="" />
+          <p>Piscinas</p>
+        </div>
+        <div>
+          <img src="" />
+          <p>Liner</p>
+        </div>
+        <div>
+          <img src="" />
+          <p>Jacuzzis</p>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <h2>Piscinas</h2>
+          <p>
+            Somos una empresa con una dilatada trayectoria construyendo,
+            reparando y rehabilitando piscinas de todo tipo, dando soluciones a
+            todos los retos que nuestros clientes nos plantean, adaptándonos a
+            sus necesidades. Un trato cercano y profesional es nuestro fuerte.
+            Somos expertos tematizadores construyendo para usted cascadas,
+            toboganes, jacuzzis y conjuntos temáticos que harán un rincón de
+            ensueño de su piscina jardín.
+          </p>
+        </div>
+        <img src="/as" alt="midas-piscinas-vision" />
+      </div>
+      <div>
+        <img src="" alt="midas-piscinas-vision" />
+        <div>
+          <h2>Liner</h2>
+          <p>
+            Somos una empresa con una dilatada trayectoria construyendo,
+            reparando y rehabilitando piscinas de todo tipo, dando soluciones a
+            todos los retos que nuestros clientes nos plantean, adaptándonos a
+            sus necesidades. Un trato cercano y profesional es nuestro fuerte.
+            Somos expertos tematizadores construyendo para usted cascadas,
+            toboganes, jacuzzis y conjuntos temáticos que harán un rincón de
+            ensueño de su piscina jardín.
+          </p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h2>Jacuzzis</h2>
+          <p>
+            Somos una empresa con una dilatada trayectoria construyendo,
+            reparando y rehabilitando piscinas de todo tipo, dando soluciones a
+            todos los retos que nuestros clientes nos plantean, adaptándonos a
+            sus necesidades. Un trato cercano y profesional es nuestro fuerte.
+            Somos expertos tematizadores construyendo para usted cascadas,
+            toboganes, jacuzzis y conjuntos temáticos que harán un rincón de
+            ensueño de su piscina jardín.
+          </p>
+        </div>
+        <img src="" alt="midas-piscinas-vision" />
+      </div>
+    </section>
+
+    <section id="galeria">
+      <h2>Galería</h2>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+
+      <form id="contact-form">
+        <label for="nombre">Nombre:</label>
+        <input
+          type="text"
+          name="nombre"
+          placeholder="Midas Piscinas"
+          required
+        />
+        <label for="movil">Teléfono:</label>
+        <input
+          type="tel"
+          name="movil"
+          placeholder="649-320-241"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+          required
+        />
+        <label for="mail">e-mail:</label>
+        <input
+          type="email"
+          name="mail"
+          placeholder="gestion@midaspiscinas.com"
+          required
+        />
+        <label for="consulta">Consulta:</label>
+        <input
+          type="text-area"
+          name="consulta"
+          placeholder="Mi consulta es..."
+          required
+        />
+        <input type="checkbox" required name="privacy" />
+        <label for="provacy"
+          >He leído y acepto la
+          <a href="/politica.html">política de Privacidad</a></label
+        >
+        <input type="submit" value="Enviar" />
+      </form>
+
+      <p>Redes</p>
+      <p>Correo: gestion@midaspiscinas.com</p>
+      <p>Teléfono: 649-320-241</p>
+    </section>
+
+    <footer>
+      <a>Aviso Legal</a>
+      <a>Política de Cookies</a>
+      <a>Política de Privacidad</a>
+      <small
+        >Copyright 2023. Web creada por Marcos Napolitano. Todos los derechos
+        reservados.</small
+      >
+    </footer>
+
+    <script src="" async defer></script>
   </body>
 </html>
