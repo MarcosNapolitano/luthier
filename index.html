@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./public/css/styles.css" />
-    <!-- <script src="test.js" async defer></script> -->
+    <script src="test.js" async defer></script>
   </head>
 
   <body>
@@ -79,23 +79,30 @@
 
     <section id="trabajos" class="full-height">
       <h2 class="center-text title">Trabajos Realizados</h2>
+
       <div class="three-flex">
         <div class="card">
-          <img src="public/img/analisis.jpeg" />
-          <p class="card-title">Piscinas</p>
+          <a href="#Piscinas">
+            <img src="public/img/analisis.jpeg" />
+            <p class="card-title">Piscinas</p>
+          </a>
         </div>
         <div class="card">
-          <img src="public/img/analisis.jpeg" />
-          <p class="card-title">Liner</p>
+          <a href="#Liner">
+            <img src="public/img/analisis.jpeg" />
+            <p class="card-title">Liner</p>
+          </a>
         </div>
         <div class="card">
-          <img src="public/img/analisis.jpeg" />
-          <p class="card-title">Jacuzzis</p>
+          <a href="#Jacuzzis">
+            <img src="public/img/analisis.jpeg" />
+            <p class="card-title">Jacuzzis</p>
+          </a>
         </div>
       </div>
 
       <section class="sub-section">
-        <div class="slider-card-flex-2">
+        <div id="Piscinas" class="slider-card-flex-2">
           <div>
             <h2>Piscinas</h2>
             <p>
@@ -110,7 +117,7 @@
           </div>
           <img src="/public/img/analisis.jpeg" alt="midas-piscinas-vision" />
         </div>
-        <div class="slider-card-flex-2">
+        <div id="Liner" class="slider-card-flex-2">
           <img src="/public/img/analisis.jpeg" alt="midas-piscinas-vision" />
           <div>
             <h2>Liner</h2>
@@ -125,7 +132,7 @@
             </p>
           </div>
         </div>
-        <div class="slider-card-flex-2">
+        <div id="Jacuzzis" class="slider-card-flex-2">
           <div>
             <h2>Jacuzzis</h2>
             <p>
@@ -204,13 +211,15 @@
     </section>
 
     <footer>
-      <a>Aviso Legal</a>
-      <a>Política de Cookies</a>
-      <a>Política de Privacidad</a>
+      <div>
+        <a class="footer">Aviso Legal</a>
+        <a class="footer">Política de Cookies</a>
+        <a class="footer">Política de Privacidad</a>
+      </div>
       <small
         >Copyright 2023. Web creada por Marcos Napolitano. Todos los derechos
-        reservados.</small
-      >
+        reservados.
+      </small>
     </footer>
   </body>
 </html>

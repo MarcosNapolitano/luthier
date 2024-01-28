@@ -54,6 +54,12 @@ a {
   color: var(--main-font-light);
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 /* usar media queries en em */
 
 /* ------------------ Initial Setup ------------------ */
@@ -70,11 +76,11 @@ a {
 }
 
 .fade {
-  animation: fadeIn 1s ease;
+  animation: fadeIn 0.5s ease;
 }
 
 .fade_slow {
-  animation: fadeIn 1.2s ease;
+  animation: fadeIn 1.5s ease;
 }
 
 .fade_extra_slow {
@@ -127,6 +133,10 @@ a {
 /* .full-height {
   height: 86dvh;
 } problema con el fin de la pagina */
+
+section {
+  min-height: 100vh;
+}
 
 .back {
   background: url('../img/summer.jpeg');
@@ -217,6 +227,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  scale: 100%;
   transition: 0.5s ease;
 }
 
@@ -225,12 +236,14 @@ a {
   cursor: pointer;
 }
 
-.card > img {
+.card > a > img {
   width: 100%;
   border: 3px solid rgb(86, 86, 86);
+  border-radius: 1rem;
 }
 
 .card-title {
+  text-align: center;
   margin-top: 0.8rem;
   font-size: 1.5rem;
 }
@@ -268,3 +281,23 @@ a {
 }
 
 /* ------------------ contacto ------------------ */
+
+/* ------------------ footer ------------------ */
+
+footer {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #1178af;
+  color: whitesmoke;
+}
+
+.footer {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: whitesmoke;
+}
+
+/* ------------------ footer ------------------ */
